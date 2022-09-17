@@ -1,0 +1,33 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  grid-template-areas: "infoes"
+                        "links";
+}
+.container-infoes {
+  grid-area: infoes;
+  background-color: antiquewhite;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "title mail";
+}
+.container-infoes-title {
+  background-color: antiquewhite;
+  text-align: center;
+}
+.container-infoes-mail {
+  background-color: antiquewhite;
+
+}
+.container-links {
+  grid-area: links;
+  background-color: #171717;
+  padding: 1rem;
+  display: grid;
+}
