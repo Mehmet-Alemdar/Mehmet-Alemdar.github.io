@@ -36,9 +36,8 @@ body {
 .container-infoes-mail-text {
   color: #171717;
   cursor: pointer;
-}
-.container-infoes-mail-text:hover {
   text-decoration: underline;
+
 }
 .container-links {
   background-color: #FFF3E0;
