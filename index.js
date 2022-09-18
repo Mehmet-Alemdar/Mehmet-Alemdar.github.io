@@ -47,6 +47,16 @@ const events = [
         link: 'https://www.instagram.com/mehmetalemdarr/'
       }
     ]
+  },
+  {
+    title: 'apps',
+    contents: [
+      {
+        decription: "Check out my note app I've published on Google Play Store.",
+        icon: "google-play",
+        link: 'https://play.google.com/store/apps/details?id=com.mehmetalemdar.basitnottut&hl=tr&gl=US'
+      }
+    ]
   }
 ]
 
