@@ -119,7 +119,9 @@ html = jobEvent.map(obj => {
     <img src="./icons/arrow.svg">
   </div>
   <div class="container-redirect-box-item icon">
-    <img src="./icons/${obj.icon}.svg" />
+    <a href=${obj.link} target="_blank" rel="noreferrer noopener">
+      <img src="./icons/${obj.icon}.svg" />
+    </a>
   </div>
   </div>
   </div>
