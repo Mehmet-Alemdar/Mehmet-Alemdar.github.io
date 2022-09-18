@@ -28,8 +28,6 @@ body {
 }
 .container-infoes-mail {
   flex: 1;
-}
-.container-infoes-mail {
   text-align: center;
   align-self: center;
 }
