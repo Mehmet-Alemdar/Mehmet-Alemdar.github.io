@@ -7,6 +7,9 @@ body {
   display: flex;
   flex-direction: column;
 }
+.text {
+  font-family: 'Times New Roman', Times, serif;
+}
 .container-infoes {
   flex: 1;
   background-color: #FFF3E0;
@@ -35,7 +38,6 @@ body {
   color: #171717;
   cursor: pointer;
   text-decoration: underline;
-
 }
 .container-links {
   background-color: #FFF3E0;
@@ -83,7 +85,11 @@ button:hover {
 
 .container-redirect-box-item {
   flex: 1;
+}
+
+.description {
   color: #FFF3E0;
+  font-weight: 300;
 }
 .icon img {
   background-color: #202020;

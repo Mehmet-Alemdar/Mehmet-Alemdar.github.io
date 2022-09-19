@@ -65,7 +65,7 @@ const htmlFunc = (event) => {
   const html = event.map(obj => {
     return `
       <div class="container-redirect-box">
-        <div class="container-redirect-box-item description">
+        <div class="container-redirect-box-item description text">
           ${obj.decription}
         </div>
         <div class="container-redirect-box-item row-image">
@@ -76,7 +76,6 @@ const htmlFunc = (event) => {
             <img src="./icons/${obj.icon}.svg" />
           </a>
         </div>
-      </div>
       </div>`
   })
   containerRedirect.innerHTML = html
