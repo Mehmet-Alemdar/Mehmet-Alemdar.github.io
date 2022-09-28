@@ -1,9 +1,10 @@
 const containerRedirect = document.getElementById('redirect')
+const buttons = [document.getElementById('job'),document.getElementById('art'),document.getElementById('social'),document.getElementById('apps')]
 
-document.getElementById('job').onclick = click
-document.getElementById('art').onclick = click
-document.getElementById('social').onclick = click
-document.getElementById('apps').onclick = click
+buttons.map((button) => {
+  button.onclick = click
+})
+
 
 const events = [
   {
@@ -91,11 +92,19 @@ const getContent = (title,events) => {
   return contents
 }
 
+let activeButton = "job"
+
 function click(event){
-  const title = event.target.id
+  const title = event.target.id 
   const contents = getContent(title,events)
+
+  event.target.classList.add('button-active')
+
+  buttons.filter(element => element !== event.target).map(inActiveButton => {
+    inActiveButton.classList.remove('button-active')
+  })
 
   htmlFunc(contents)
 }
 
-htmlFunc(events[0].contents)
+buttons[0].click()
