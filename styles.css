@@ -1,7 +1,7 @@
 :root {
   --cream-bg-color: #E9DAC1;
   --dark-bg-color: #171717;
-  --dark-soft-bg-color: #202020;
+  --cadet-bg-color: rgb(87, 147, 149);
 }
 body {
   padding: 0;
@@ -43,6 +43,7 @@ body {
   color: var(--dark-bg-color);
   cursor: pointer;
   text-decoration: underline;
+  display:inline;
 }
 .container-links {
   background-color: var(--cream-bg-color);
@@ -101,14 +102,14 @@ button:hover {
   font-weight: 300;
 }
 .icon img {
-  background-color: var(--dark-soft-bg-color);
+  background-color: var(--cadet-bg-color);
   border-radius: 5px;
   padding: 0.5rem;
-  box-shadow: 1px 1px var(--cream-bg-color);
+  box-shadow: 3px 2px var(--cream-bg-color);
 }
 .icon img:hover {
   padding: 0.6rem;
-  box-shadow: 2px 2px var(--cream-bg-color);
+  box-shadow: 4px 3px var(--cream-bg-color);
 }
 
 @media (max-width: 780px) {
