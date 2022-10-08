@@ -1,7 +1,8 @@
 :root {
   --cream-bg-color: #E9DAC1;
   --dark-bg-color: #171717;
-  --cadet-bg-color: rgb(87, 147, 149);
+  --dark-soft-bg-color: #252525;
+  --button-color: rgb(248, 228, 202);
 }
 body {
   padding: 0;
@@ -51,15 +52,16 @@ body {
   padding-bottom: 0.5rem;
 }
 button {
-  background-color: rgb(248, 228, 202);
+  background-color: var(--button-color);
   width: 4rem;
   padding: 1rem;
   border: 0px;
-  border-bottom: 1px solid antiquewhite;
+  border-bottom: 1px solid var(--button-color);
   cursor: pointer;
   justify-content: center;
   text-align: center;
   color: var(--dark-bg-color);
+  border-radius: 5px;
 }
 
 button:hover {
@@ -68,6 +70,8 @@ button:hover {
 
 .button-active {
   border-bottom: 1.5px solid var(--dark-bg-color);
+  background-color: var(--dark-bg-color);
+  color: var(--cream-bg-color);
 }
 
 .container-redirect {
@@ -102,7 +106,7 @@ button:hover {
   font-weight: 300;
 }
 .icon img {
-  background-color: var(--cadet-bg-color);
+  background-color: var(--dark-soft-bg-color);
   border-radius: 5px;
   padding: 0.5rem;
   box-shadow: 3px 2px var(--cream-bg-color);
