@@ -84,7 +84,7 @@ button:hover {
   text-align: center;
   justify-content: center;
   animation-name: container-redirect-animation;
-  animation-duration: 1.5s;
+  animation-duration: 1.7s;
 }
 .container-redirect-box {
   flex: 1;
@@ -97,8 +97,6 @@ button:hover {
   justify-content: center;
   align-items: center;
   padding: 1rem 1rem 0rem 1rem;
-  animation-name: test;
-  animation-duration: 1s;
 }
 
 .container-redirect-box-item {
@@ -107,13 +105,15 @@ button:hover {
 
 .description {
   color: var(--cream-bg-color);
-  font-weight: 300;
+  font-weight: 000;
 }
 .icon img {
   background-color: var(--dark-soft-bg-color);
   border-radius: 5px;
   padding: 0.5rem;
   box-shadow: 3px 2px var(--cream-bg-color);
+  animation-name: icon-container-animation;
+  animation-duration: 1.5s;
 }
 .icon img:hover {
   padding: 0.6rem;
@@ -125,14 +125,16 @@ button:hover {
   to { flex: 2; }
 }
 
-@keyframes test {
+@keyframes icon-container-animation {
   from {
-    min-height: 15%;
-    background-color: var(--cream-bg-color);
+    background-color: var(--dark-bg-color);
+    box-shadow: 0px 0px var(--cream-bg-color);
+    border-radius: 0px;
   }
   to {
-    min-height: 40%;
-    background-color: var(--dark-bg-color);
+    background-color: var(--dark-soft-bg-color);
+    box-shadow: 3px 2px var(--cream-bg-color);
+    border-radius: 5px;
   }
 }
 
