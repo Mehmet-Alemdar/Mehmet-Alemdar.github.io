@@ -1,6 +1,6 @@
 :root {
   --cream-bg-color: #E9DAC1;
-  --dark-bg-color: #171717;
+  --dark-bg-color: #141414;
   --dark-soft-bg-color: #252525;
   --button-color: rgb(248, 228, 202);
 }
@@ -12,13 +12,13 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  background-image: radial-gradient(#141414 20%, #090909 75%);
 }
 .text {
   font-family: 'Times New Roman', Times, serif;
 }
 .container-infoes {
   flex: 1;
-  background-color: var(--cream-bg-color);
   display: flex;
   flex-direction: row;
   padding: 1rem;
@@ -29,7 +29,7 @@ body {
   align-self: center;
 }
 .container-infoes-title-text {
-  color: var(--dark-bg-color);
+  color: var(--cream-bg-color);
   font-size: 1.5rem;
 }
 .work-title {
@@ -41,18 +41,17 @@ body {
   align-self: center;
 }
 .container-infoes-mail-text {
-  color: var(--dark-bg-color);
+  color: var(--cream-bg-color);
   cursor: pointer;
   text-decoration: underline;
   display:inline;
 }
 .container-links {
-  background-color: var(--cream-bg-color);
   text-align: center;
   padding-bottom: 0.5rem;
 }
 button {
-  background-color: var(--button-color);
+  background-color: rgba(0, 0, 0, 0.1);
   width: 4rem;
   padding: 1rem;
   border: 0px;
@@ -60,8 +59,9 @@ button {
   cursor: pointer;
   justify-content: center;
   text-align: center;
-  color: var(--dark-bg-color);
+  color: var(--cream-bg-color);
   border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 1);
 }
 
 button:hover {
@@ -70,13 +70,12 @@ button:hover {
 
 .button-active {
   border-bottom: 1.5px solid var(--dark-bg-color);
-  background-color: var(--dark-bg-color);
-  color: var(--cream-bg-color);
+  background-color: var(--cream-bg-color);
+  color: var(--dark-bg-color);
 }
 
 .container-redirect {
   flex: 2;
-  background-color: var(--dark-bg-color);
   padding: 1rem;
   display: flex;
   flex-direction: row;
@@ -108,7 +107,7 @@ button:hover {
   font-weight: 000;
 }
 .icon img {
-  background-color: var(--dark-soft-bg-color);
+  background-color: rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   padding: 0.5rem;
   box-shadow: 3px 2px var(--cream-bg-color);
@@ -132,7 +131,7 @@ button:hover {
     border-radius: 0px;
   }
   to {
-    background-color: var(--dark-soft-bg-color);
+    background-color: rgba(0, 0, 0, 0.2);
     box-shadow: 3px 2px var(--cream-bg-color);
     border-radius: 5px;
   }
