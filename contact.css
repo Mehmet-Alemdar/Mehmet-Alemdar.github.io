@@ -1,0 +1,63 @@
+:root {
+  --color-bg: #E7E3DF;
+  --color-dark: #141414;
+  --color-shadow: #9d9d9d;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+  background-color: var(--color-bg);
+}
+.container {
+  margin: auto;
+  padding: 2rem 4rem;
+  max-width: 80em;
+}
+.contacts-container{
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.contacts-icon {
+  cursor: pointer;
+}
+.contact-adress {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.contact-adress-container {
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+  align-items: center;
+}
+a {
+  color: var(--color-dark);
+}
+.button-container {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+.button-container a {
+  background-color: var(--color-dark);
+  color: var(--color-bg);
+  text-decoration: none;
+  border: 0;
+  width: 100%;
+  max-width: 40rem;
+  padding: 0.8rem 2rem 0.8rem 2rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px var(--color-shadow);
+  cursor: pointer;
+  text-align: center;
+}
