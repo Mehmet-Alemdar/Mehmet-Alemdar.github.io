@@ -138,6 +138,7 @@ a {
 }
 hr {
   border: 2px solid #c9c4bf;
+  background-color: #c9c4bf;
   border-radius: 0.5rem;
 }
 @media (max-width: 1000px) {
