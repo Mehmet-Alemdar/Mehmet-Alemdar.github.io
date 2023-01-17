@@ -136,6 +136,10 @@ a {
 .next:hover {
   background-color: rgba(0, 0, 0, 0.2);
 }
+hr {
+  border: 2px solid #c9c4bf;
+  border-radius: 0.5rem;
+}
 @media (max-width: 1000px) {
   .head {
     grid-template-areas: "title"
