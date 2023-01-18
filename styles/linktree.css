@@ -12,7 +12,7 @@ a {
   height: 100vh;
 }
 .container-head {
-  background-color: #141414;
+  background-color: #0c0c0c;
   max-height: 250px;
   min-height: 250px;
   display: flex;
@@ -25,12 +25,14 @@ a {
 .container-head-image-box {
   width: 200px;
   height: 200px;
+  background-color: rgba(250, 0, 117, 0.4);
+  border-radius: 20rem;
 }
 .container-head-image-box img {
   width: 100%;
   height: 100%;
   border-radius: 20rem;
-  border: 4px solid rgba(255, 255, 255, 0.5);
+  border: 4px solid rgba(250, 0, 117, 0.5);
 }
 .container-head-name-box p{
   color: white;
@@ -38,7 +40,7 @@ a {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .container-body {
-  background-color: #141414;
+  background-color: #0c0c0c;
   flex: 2;
   padding: 1rem 1rem;
   display: flex;
@@ -62,7 +64,7 @@ a {
   flex-direction: row;
   align-items: center;
   gap: 0.5rem;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.6);
   padding-left: 1rem;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
