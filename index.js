@@ -2,8 +2,8 @@ const arr = [
   {
     projectType: 'mobile',
     title: 'proje 1',
-    name : 'DT Akademi',
-    description: 'İnternet üzerinden öğrenciler için eğitim imkanı sunan DT Akademi şirketi için geliştirdiğim bu uygulamada öğrenciler test çözüp eğitim videoları izleyebiliyorlar.',
+    name : 'İBB Ders Atölyeleri',
+    description: 'İnternet üzerinden öğrenciler için eğitim imkanı sunan DT Akademi şirketinde İstanbul Belediyesi Ders Atölyeleri için geliştirdiğim bu uygulamada öğrenciler test çözüp eğitim videoları izleyebiliyorlar.',
     images : ["./images/dt/dt-1.png", "./images/dt/dt-2.png","./images/dt/dt-3.png", "./images/dt/dt-4.png","./images/dt/dt-5.png", "./images/dt/dt-6.png","./images/dt/dt-7.png", "./images/dt/dt-8.png"],
   },
   {
