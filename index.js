@@ -1,4 +1,4 @@
-var host = "mehmetalemdar.net"
+var host = "mehmetalemdar.github.io"
 if((host == window.location.host) && (window.location.protocol != "https:")) {
     window.location.protocol = "https";
 }
