@@ -1,3 +1,8 @@
+var host = "mehmetalemdar.net"
+if((host == window.location.host) && (window.location.protocol != "https:")) {
+    window.location.protocol = "https";
+}
+
 const arr = [
   {
     projectType: 'mobile',
