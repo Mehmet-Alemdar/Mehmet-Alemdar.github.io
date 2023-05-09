@@ -5,43 +5,50 @@ if((host == window.location.host) && (window.location.protocol != "https:")) {
 
 const arr = [
   {
-    projectType: 'mobile',
+    projectType: 'web',
     title: 'proje 1',
+    name: 'İstatistik Okuryazarlık',
+    description: 'Bu web sitesi, istatistik okuryazarlık seviyesini ölçmek ve kullanıcıların demografik bilgilerine göre istatistik okuryazarlığı seviyelerini grafikleştirmek amacıyla oluşturulmuştur. Kullanıcılar, site üzerindeki testi tamamlayarak istatistik okuryazarlığı seviyelerini belirleyebilir ve sonrasında demografik bilgilere göre oluşturulan grafikler ile karşılaştırabilir ve inceleyebilirler.',
+    images: ['./images/ioy/ioy-1.png', './images/ioy/ioy-2.png', './images/ioy/ioy-3.png', './images/ioy/ioy-4.png', './images/ioy/ioy-5.png', './images/ioy/ioy-6.png', './images/ioy/ioy-7.png', './images/ioy/ioy-8.png', './images/ioy/ioy-9.png']
+  },
+  {
+    projectType: 'mobile',
+    title: 'proje 2',
     name : 'İBB Ders Atölyeleri',
     description: 'İnternet üzerinden öğrenciler için eğitim imkanı sunan DT Akademi şirketinde İstanbul Belediyesi Ders Atölyeleri için geliştirdiğim bu uygulamada öğrenciler test çözüp eğitim videoları izleyebiliyorlar.',
     images : ["./images/dt/dt-1.png", "./images/dt/dt-2.png","./images/dt/dt-3.png", "./images/dt/dt-4.png","./images/dt/dt-5.png", "./images/dt/dt-6.png","./images/dt/dt-7.png", "./images/dt/dt-8.png"],
   },
   {
     projectType: 'mobile',
-    title: 'proje 2',
+    title: 'proje 3',
     name : 'Movies',
     description:'Movies uygulaması, kendim için bir egzersiz ve örnek bir mimari olması için oluşturduğum bir uygulamadır. Bu Uygulamada kullanıcılar eklediğim filmleri ve uygulamayı kullanan kullanıcıları görebilirler.',
     images : ["./images/movies/movies-1.png", "./images/movies/movies-2.png","./images/movies/movies-3.png", "./images/movies/movies-4.png","./images/movies/movies-5.png"],
   },
   {
     projectType: 'web',
-    title: 'proje 3',
+    title: 'proje 4',
     name : 'Coronavirus Graphics',
     description: 'Bu projede koronavirüs verilerini grafikleştirdim. Dünya haritasında ülkelerin üzerine gelerek toplam vaka sayısını görebiliyoruz, aynı kıtalarda bulunan ülkelerin toplam vaka sayısını çizgi grafiğinde görüp kıyaslayabiliyoruz veya kendi seçtiğimiz ülkeleri çizgi grafiğinde kıyaslayabiliyoruz.',
     images : ["./images/covid/covid-1.png", "./images/covid/covid-2.png","./images/covid/covid-3.png", "./images/covid/covid-4.png"],
   },
   {
     projectType: 'web',
-    title: 'proje 4',
+    title: 'proje 5',
     name : 'Just Meal',
     description: 'Bir tarif sitesi olan bu projede, kategorilere göre yemek tariflerini listeleyebiliyoruz. Rastgele bir şekilde 10 adet farklı yemek tarifleri listeyebiliyoruz ve yemek tarifleriyle birlikte tarifin videosunu izleyebiliyoruz.',
     images : ["./images/justmeal/justmeal-1.png", "./images/justmeal/justmeal-2.png", "./images/justmeal/justmeal-3.png"],
   },
   {
     projectType: 'mobile',
-    title: 'proje 5',
+    title: 'proje 6',
     name : 'Not Tut',
     description: 'Telefonlar için bir not tutma uygulaması olan bu uygulamada, konuşmamızı yazıya çevirebiliyoruz bu sayede konuşarak not tutabiliyoruz, not paylaşma özelliğine de sahip olan bu uygulamada not içeriğini hızlıca okuyabilmek adına notun üzerine basılı tutup açılan pencereden hızlıca notumuzu okuyabiliyoruz.',
     images : ["./images/note/note-1.png", "./images/note/note-2.png","./images/note/note-3.png", "./images/note/note-4.png"],
   },
   {
     projectType: 'web',
-    title: 'proje 6',
+    title: 'proje 7',
     name : 'Estate App',
     description: 'Bir emlak sitesi olan bu sitede kiralık ve satılık daireleri görebilir ve filtreleyerek listeleyebilirsiniz.',
     images : ["./images/estate/estate-1.png", "./images/estate/estate-2.png", "./images/estate/estate-3.png", "./images/estate/estate-4.png"],
